@@ -1,36 +1,24 @@
-# Practico-2
-Este proyecto contiene funciones en Python para filtrar números **pares** e **impares** de una lista.
+# Práctico 2 – Números pares e impares
 
-## Estructura del proyecto
-Practico-2/ ├── main.py └── src/ └── operaciones.py
+Este es un proyecto en Python donde se trabajan listas de números. La idea es tener funciones que separen los **pares** y los **impares** de una lista.
+Todo el código está en el archivo `src/operaciones.py`.
 
-## Funcionalidades
-Actualmente incluye las siguientes funciones:
-- `filtrar_pares(lista)` → Devuelve los números pares.
-- `filtrar_impares(lista)` → Devuelve los números impares.
+## ¿Qué hace el código?
 
-## Cómo probar el proyecto
+Hay dos funciones principales:
+- `filtrar_pares(lista)` → devuelve los números pares de la lista
+- `filtrar_impares(lista)` → devuelve los impares
 
-1. Cloná el repositorio en tu computadora o Google Colab:
-```bash
-git clone https://github.com/sonsi-fabini/Practico-2.git
-cd Practico-2
+## ¿Cómo lo pruebo?
+Podés correr el archivo `main.py`, que ya tiene un ejemplo listo.  
+También podés probarlo vos así:
 
-2.Asegurate de tener Python instalado (o usá Google Colab).
-
-3. Ejecutá el archivo main.py o usá el siguiente ejemplo:
+```python
 from src.operaciones import filtrar_pares, filtrar_impares
+
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-pares = filtrar_pares(numeros)
-impares = filtrar_impares(numeros)
 
-print("Pares:", pares)      # [2, 4, 6, 8, 10]
-print("Impares:", impares)  # [1, 3, 5, 7, 9]
+print("Pares:", filtrar_pares(numeros))
+print("Impares:", filtrar_impares(numeros))
 
-🛠️ Contribuir
-Forkeá este repo
-Creá una nueva rama (git checkout -b nueva-funcionalidad)
-Hacé tus cambios y hacé commit (git commit -am 'Agregar función X')
-Hacé push (git push origin nueva-funcionalidad)
-Abrí un Pull Request
 
