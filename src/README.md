@@ -1,15 +1,15 @@
 # Practico-2
 Este proyecto contiene funciones en Python para filtrar números **pares** e **impares** de una lista.
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 Practico-2/ ├── main.py └── src/ └── operaciones.py
 
-## 🧠 Funcionalidades
+## Funcionalidades
 Actualmente incluye las siguientes funciones:
 - `filtrar_pares(lista)` → Devuelve los números pares.
 - `filtrar_impares(lista)` → Devuelve los números impares.
 
-## 🧪 Cómo probar el proyecto
+## Cómo probar el proyecto
 
 1. Cloná el repositorio en tu computadora o Google Colab:
 ```bash
